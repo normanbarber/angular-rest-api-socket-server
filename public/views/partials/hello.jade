@@ -1,0 +1,24 @@
+div(ng-controller="MainController")
+	strong Your contacts ( click button1 or button2 to open new room )
+	div
+		button(data-ng-click="createRoom($event)", name="{{user1}}") {{ user1 }}
+		span &nbsp;
+		button(data-ng-click="createRoom($event)", name="{{user2}}") {{ user2 }}
+	br
+	strong Open console to view logs and post a message from Advanced REST Client
+	br
+	br
+	strong Below is an example url and payload I use in Advanced REST Client
+	br
+	strong URL:
+	span http://localhost:4001/id/someuser1
+	br
+	strong Payload:
+	span {"some": "message"}
+	br
+	br
+	div
+		section.sendmessage
+			textarea.message(rows="2", placeholder="Enter a new message here")
+			br
+			button(data-ng-click="sendMessage()") Send
