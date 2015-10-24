@@ -26,7 +26,7 @@ This example includes an express web server and a rest server along with a socke
 One way to manually test you are POST successfully install the Chrome app named [Advanced REST Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=en-US) from the Chrome Web Store.
 ### Posting from Advance REST Client
 ```{engine='bash'}
-> url: http://localhost:4001/id/someid
+> url: http://localhost:4001/id/someuser1
 > Select POST radio button
 > Select application/json from the content-type drop-down menu
 > payload: {"somekey":"somevalue"}
