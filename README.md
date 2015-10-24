@@ -19,7 +19,7 @@ This example includes an express web server and a rest server along with a socke
 ```
 
 ### Open one or more tabs in the browser and go to this url
-```javascript
+```{engine='bash'}
 > http://localhost:4000/
 ```
 
