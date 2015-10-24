@@ -9,7 +9,7 @@ rest server routes are found in config/routes/routes_rest.js
 
 app.js is the main entry-point for the app and calls main.js
 
-main.js is the module that starts servers.
+main.js is the module that starts servers for Express, REST and Socket server
 
 This example includes an express web server and a rest server along with a socket server sending events back and forth to the client.
 
